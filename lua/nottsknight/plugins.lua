@@ -33,6 +33,8 @@ return require('packer').startup(function(use)
 
   use{'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 
+  use('vim-autoformat/vim-autoformat')
+
   -- Lualine
   use {
 	  'nvim-lualine/lualine.nvim',

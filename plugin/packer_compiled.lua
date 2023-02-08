@@ -180,6 +180,11 @@ _G.packer_plugins = {
     path = "/home/pszik/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-lua/telescope.nvim"
   },
+  ["vim-autoformat"] = {
+    loaded = true,
+    path = "/home/pszik/.local/share/nvim/site/pack/packer/start/vim-autoformat",
+    url = "https://github.com/vim-autoformat/vim-autoformat"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/pszik/.local/share/nvim/site/pack/packer/start/vim-fugitive",
