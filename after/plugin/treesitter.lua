@@ -9,7 +9,8 @@ require('nvim-treesitter.configs').setup {
         'cpp',
         'javascript',
         'typescript',
-        'json'
+        'json',
+        'lalrpop'
     },
     higlight = { enable = true }
 }
