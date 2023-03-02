@@ -43,11 +43,6 @@ return require('packer').startup(function(use)
 
     -- File search
     use {
-        'nvim-tree/nvim-tree.lua',
-        requires = 'kyazdani42/nvim-web-devicons'
-    }
-
-    use {
         'nvim-lua/telescope.nvim', tag = '0.1.x',
         requires = 'nvim-lua/plenary.nvim'
     }
