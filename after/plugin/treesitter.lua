@@ -1,16 +1,27 @@
-require('nvim-treesitter.configs').setup {
+require("nvim-treesitter.configs").setup {
     ensure_installed = {
+        'bash',
+        'bibtex',
+        'c',
+        'cmake',
+        'cpp',
+        'haskell',
+        'html',
+        'htmldjango',
+        'javascript',
+        'json',
+        'lalrpop',
+        'latex',
+        'lua',
+        'markdown',
         'python',
         'rust',
-        'haskell',
-        'latex',
-        'bash',
-        'c',
-        'cpp',
-        'javascript',
         'typescript',
-        'json',
-        'lalrpop'
+        'yaml'
     },
-    higlight = { enable = true }
+    auto_install = false,
+    highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false,
+    },
 }
