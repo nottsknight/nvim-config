@@ -53,4 +53,7 @@ return require('packer').startup(function(use)
     -- Colorscheme
     use('sainnhe/everforest')
 
+    use('ledger/vim-ledger')
+
+    use ('echasnovski/mini.nvim')
 end)
