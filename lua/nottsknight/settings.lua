@@ -31,3 +31,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "88"
 
 vim.g.netrw_banner = 0
+
+vim.g.ledger_maxwidth = 80
+vim.g.ledger_fillstring = '   -'
