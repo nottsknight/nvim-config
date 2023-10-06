@@ -8,6 +8,7 @@ require("nvim-treesitter.configs").setup {
         'haskell',
         'html',
         'htmldjango',
+        'java',
         'javascript',
         'json',
         'lalrpop',

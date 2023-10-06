@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
     use('ledger/vim-ledger')
 
     use ('echasnovski/mini.nvim')
+
+    use('HiPhish/gradle.nvim')
 end)
