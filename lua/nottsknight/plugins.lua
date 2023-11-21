@@ -58,4 +58,18 @@ return require('packer').startup(function(use)
     use ('echasnovski/mini.nvim')
 
     use('HiPhish/gradle.nvim')
+
+    use {
+        'mrcjkb/haskell-tools.nvim',
+        requires = {
+            {'nvim-lua/plenary.nvim'}
+        },
+        version = '^2',
+        ft = {'haskell', 'lhaskell', 'cabal', 'cabalproject'}
+    }
+
+    use {
+        'folke/trouble.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons' }
+    }
 end)
